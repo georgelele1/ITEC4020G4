@@ -20,3 +20,6 @@ first download the tomcat 8.5 or 9 on your local device
 then add loacl tomcat server configuration inisde your intellj program
 
 configure the tomcat server on the folder you extract the tomcat download before. then run the application.
+
+username is admin
+password is 123
