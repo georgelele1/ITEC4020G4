@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+
+    <display-name>ITEC4020G4</display-name>
+
+    <servlet>
+        <servlet-name>loginHandler</servlet-name>
+        <display-name>loginHandler</display-name>
+        <description></description>
+        <servlet-class>com.example.itec4020g4.loginHandler</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>logoutHandler</servlet-name>
+        <display-name>logoutHandler</display-name>
+        <description></description>
+        <servlet-class>com.example.itec4020g4.LogoutHandler</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>imageHandler</servlet-name>
+        <display-name>imageHandler</display-name>
+        <description></description>
+        <servlet-class>com.example.itec4020g4.imageHandler</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>loginJSP</servlet-name>
+        <jsp-file>/login.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>loggedInJSP</servlet-name>
+        <jsp-file>/logedin.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>account</servlet-name>
+        <jsp-file>/accounts.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>xmlHandler</servlet-name>
+        <display-name>xmlHandler</display-name>
+        <description></description>
+        <servlet-class>com.example.itec4020g4.xmlHandler</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>xmlHandler</servlet-name>
+        <url-pattern>/xmlHandler</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>account</servlet-name>
+        <url-pattern>/account</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>loggedInJSP</servlet-name>
+        <url-pattern>/loggedIn</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>loginJSP</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>loginHandler</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>logoutHandler</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>imageHandler</servlet-name>
+        <url-pattern>/Images/*</url-pattern>
+    </servlet-mapping>
+
+
+    <session-config>
+        <session-timeout>2</session-timeout>
+    </session-config>
+
+    <welcome-file-list>
+        <welcome-file>/ITEC4020G4/login.jsp</welcome-file>
+        <welcome-file>login</welcome-file>
+        <welcome-file>/login</welcome-file>
+        <welcome-file>https://localhost:8080/ITEC4020G4/login.jsp</welcome-file>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
+
+

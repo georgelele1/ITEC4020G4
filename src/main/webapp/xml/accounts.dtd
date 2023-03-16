@@ -1,0 +1,7 @@
+<!ELEMENT ACCOUNTS (AC)*>
+        <!ELEMENT AC (ManagerID|Group|username|year|email)*>
+        <!ELEMENT ManagerID (#PCDATA)>
+        <!ELEMENT Group (#PCDATA)>
+        <!ELEMENT username (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>

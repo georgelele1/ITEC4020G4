@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ProductList SYSTEM "product.dtd">
+<ProductList>
+    <product>
+        <productID>00</productID>
+        <productname>Hardware</productname>
+        <managerid>Mohamad</managerid>
+        <img>pc.JPG</img>
+    </product>
+    <product>
+        <productID>01</productID>
+        <productname>Software</productname>
+        <managerid>Yanbo</managerid>
+        <img>ram.JPG</img>
+    </product>
+    <product>
+        <productID>02</productID>
+        <productname>PC accessory</productname>
+        <managerid>Noor</managerid>
+        <img>cooler.JPG</img>
+    </product>
+    <product>
+        <productID>03</productID>
+        <productname>MIC</productname>
+        <managerid>test</managerid>
+        <img>cooler.JPG</img>
+    </product>
+    <product>
+        <productID>03</productID>
+        <productname>TV</productname>
+        <managerid>Hasham</managerid>
+        <img>cooler.JPG</img>
+    </product>
+    <product>
+        <productID>03</productID>
+        <productname>Playstation</productname>
+        <managerid>Natnael</managerid>
+        <img>cooler.JPG</img>
+    </product>
+</ProductList>

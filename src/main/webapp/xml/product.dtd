@@ -1,0 +1,8 @@
+<!ELEMENT ProductList (product)*>
+        <!ELEMENT product (productID|productname|managerid|img)*>
+        <!ELEMENT productID (#PCDATA)>
+        <!ELEMENT productname (#PCDATA)>
+        <!ELEMENT managerid (#PCDATA)>
+         <!ELEMENT img (#PCDATA)>
+
+

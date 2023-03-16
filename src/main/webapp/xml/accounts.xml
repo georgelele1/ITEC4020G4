@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="accounts.xsl"?>
+<!DOCTYPE ACCOUNTS SYSTEM "accounts.dtd">
+<ACCOUNTS>
+    <AC>
+        <ManagerID>01</ManagerID>
+        <Group>4</Group>
+        <username>admin</username>
+        <year>4</year>
+        <email>ITEC4020@my.yorku.ca</email>
+    </AC>
+    <AC>
+        <ManagerID>218428813</ManagerID>
+        <Group>4</Group>
+        <username>yanbo</username>
+        <year>3</year>
+        <email>ITEC4020@my.yorku.ca</email>
+    </AC>
+    <AC>
+        <ManagerID>216873259</ManagerID>
+        <Group>4</Group>
+        <username>Noor</username>
+        <year>4</year>
+        <email>ITEC4020@my.yorku.ca</email>
+    </AC>
+    <AC>
+        <ManagerID>215755325</ManagerID>
+        <Group>4</Group>
+        <username>Natnael</username>
+        <year>4</year>
+        <email>ITEC4020@my.yorku.ca</email>
+    </AC>
+    <AC>
+        <ManagerID>215569023</ManagerID>
+        <Group>4</Group>
+        <username>Hasham</username>
+        <year>4</year>
+        <email>ITEC4020@my.yorku.ca</email>
+    </AC>
+    <AC>
+        <ManagerID>209963398</ManagerID>
+        <Group>4</Group>
+        <username>Mohamad</username>
+        <year>4</year>
+        <email>ITEC4020@my.yorku.ca</email>
+    </AC>
+    <AC>
+        <ManagerID>03</ManagerID>
+        <Group>4</Group>
+        <username>test</username>
+        <year>3</year>
+        <email>ITEC4020@my.yorku.ca</email>
+    </AC>
+</ACCOUNTS>
