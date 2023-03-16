@@ -22,9 +22,12 @@
 
   then add loacl tomcat server configuration inisde your intellj program
 
-  configure the tomcat server on the folder you extract the tomcat download before. then run the application.
+  configure the tomcat server on the folder you extract the tomcat download before. 
   
-  rename the deplyment application context to :/ITEC4020G4
+  rename the deplyment application context to /ITEC4020G4
+  
+  then run the application.
+  
 
 username is admin
 
