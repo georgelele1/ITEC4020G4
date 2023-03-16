@@ -15,7 +15,7 @@
 
   Download the servlet-api.jar to your local device and add it inthe project liberary
 
-
+  
 2.after import the project correctly config the tomcat to your intellj 
 
   first download the tomcat 8.5 or 9 on your local device 
@@ -23,6 +23,8 @@
   then add loacl tomcat server configuration inisde your intellj program
 
   configure the tomcat server on the folder you extract the tomcat download before. then run the application.
+  
+  rename the deplyment application context to :/ITEC4020G4
 
 username is admin
 
